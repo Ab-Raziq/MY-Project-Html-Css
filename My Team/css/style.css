@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.container h1{
+    text-align: center;
+    padding: 65px;
+}
+.ineer-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .warrper-section{
+    background-color: #fff;
+    width: 369px;
+    height: 390px;
+    margin-left: 45px;
+    border-radius: 35px;
+}
+.container .warrper-section img{
+    max-width: 180px;
+    margin: auto;
+    display: block;
+    margin-left: 105px;
+}
+
+.container .warrper-section h2{
+    text-align: center;
+    font-size: 30px;
+}
+.container .warrper-section p{
+    text-align: center;
+    font-size: 20px;
+}
+.container .warrper-section button{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 19px;
+    font-size: 20px;
+    background-color: #0d0c0cdd;
+    color: #ffffff;
+    cursor: pointer;
+}

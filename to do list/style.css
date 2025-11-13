@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color: white;
+    padding: 50px;
+    margin-top: 150px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding-left: 0px;
+    display: grid;
+    gap: 15px;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #c7b9b9;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+.edit-btn{
+    background-color: #ffc000;
+}
+.delete-btn{
+    background-color: #ff0000;
+}
+#taskInput{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #c7b9b9
+}

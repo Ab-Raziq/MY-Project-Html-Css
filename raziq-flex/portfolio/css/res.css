@@ -1,0 +1,157 @@
+/* Code for responsive screens */
+
+/*
+    
+    Devices
+        1- xx Large Devices:  D >= 1400   
+        2- x Large Devices =   1200 <= D < 1400
+        3- Large Devices =    992 => D < 1200
+        4- Medium Devices =    768 >= D < 992
+        5- Smale Devices =     576 >= D < 768 
+        6- Extra small:  D < 576
+*/
+
+@media only screen and (max-width: 1024px) {
+
+    header .content nav,
+    header #icons {
+        padding-left: 0px;
+    }
+
+    header nav ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #home_section_3 .container #part2 .left,
+    #home_section_3 .container #part2 .right {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #home_section_3 .image-big img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #home_section_3 .container .image-small {
+        display: none;
+    }
+
+    #home_section_3 #part2 .exp {
+        display: flex;
+        justify-content: center;
+    }
+
+    #home_section_3 .container .right h3,
+    #home_section_3 .container .right .desc,
+    #home_section_3 .container .list {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #home_section_3 .btn_donwload {
+        display: flex;
+        justify-content: center;
+    }
+    #home_section_7 .container .right , 
+    #home_section_7 .container .left {
+        flex: 100%;
+        max-width: 100%;
+    }
+    #home_section_10 .section-container{
+        flex: 100%;
+        max-width: 100%;
+    }
+    #home_section_11 .container .right , 
+    #home_section_11 .container .left {
+        flex: 100%;
+        max-width: 100%;
+    }
+    #home_section_11 .container .submit-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #home_section_1 .container .left,
+    #home_section_1 .container .right {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #home_section_1 .container .left .name,
+    #home_section_1 .container .left .job {
+        text-align: center;
+    }
+
+    #home_section_1 .container .right img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #home_section_1 .container .left .btn_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    #home_section_1 .container .left .btn_wrapper a {
+        margin-right: 0;
+    }
+
+    #home_section_1 .container {
+        flex-direction: column-reverse;
+    }
+
+    #home_section_1 .container .left .name {
+        margin-top: 34px;
+    }
+
+    #home_section_4 .container .home{
+        flex: 50%;
+        max-width: 50%;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 778px) {
+
+    header #logo_area,
+    header .content nav,
+    header #icons {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    header .content nav {
+        margin-top: 23px;
+        margin-bottom: 11px;
+    }
+
+    header #icons ul,
+    header nav ul {
+        justify-content: center;
+    }
+
+    header #logo_area img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #home_section_2 .container .column,
+    #home_section_6 .container .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 567px) {
+    #home_section_4 .container .home,
+    #home_section_5 .skill-container{
+        flex: 100%;
+        max-width: 100%;
+    }
+}

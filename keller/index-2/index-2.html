@@ -1,0 +1,803 @@
+<html>
+    <head>
+        <title>Keller - Job Board HTML Template</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/vendor/flaticon.css"> -->
+        <link rel="shortcut icon" type="image/x-icon" href="image/favicon.jpg">
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav
+            class="header navbar navbar-expand-lg  navbar-dark bg-image position-absolute w-100">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo-light.png" alt>
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainMenuToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center"
+                    id="mainMenuToggler">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Home
+                                        One</a></li>
+                                <li><a class="dropdown-item" href="#">Home
+                                        Two</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown">Jobs</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Job
+                                        List</a></li>
+                                <li><a class="dropdown-item" href="#">Job
+                                        Single</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button"
+                                data-bs-toggle="dropdown">Company</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Company
+                                        List</a></li>
+                                <li><a class="dropdown-item" href="#">Company
+                                        Single</a></li>
+                                <li><a class="dropdown-item" href="#">Create
+                                        Job</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button"
+                                data-bs-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About
+                                        Us</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">FAQ'S</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Right
+                                        Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog
+                                        Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown">Contact
+                                us</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul
+                    class="list-group list-group-horizontal list-group-flush login_signup">
+                    <li class="list-group-item">
+                        <a href="#">Login</a>
+                    </li>
+                    <li class="list-group-item">Or</li>
+                    <li class="list-group-item">
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div
+            class="image-header position-relative d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="position-relative">
+                            <h1 class="title text-start text-white">Find Your
+                                Next
+                                Job</h1>
+                            <p class="text-start">
+                                More then
+                                <span>1,524</span>
+                                job listed here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="container">
+                <div class="row input-group">
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <input type="text" class="form-control"
+                            placeholder="e.g. web design">
+                    </div>
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <input type="text" class="form-control"
+                            placeholder="Location">
+                    </div>
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <select class="form-select">
+                            <option>Any category</option>
+                            <option>Web Designer</option>
+                            <option>Web Developer</option>
+                            <option>Graphic Designer</option>
+                            <option>App Developer</option>
+                            <option>UI & UX Expert</option>
+                        </select>
+                    </div>
+
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <button type="button"
+                            class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="job_list_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 section-title text-center">
+                        <h1 class="title">Latest Jobs</h1>
+                        <p>Here's the most recent job listed on the website.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="#"
+                            class="row job-list-row text-decoration-none">
+                            <div class="col-sm-2">
+                                <div class="job-list">
+                                    <div class="Company-logo">
+                                        <img class="m-auto d-block"
+                                            src="image/company-1.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="job-list-title">
+                                    <h6>Full Stack Backend Developer</h6>
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <strong
+                                                class="text-primary">Envato</strong>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"
+                                                style="color: #b0b0b0;margin-top: 5px;margin-left: 10px;"></i>
+                                        </li>
+                                        <li>
+                                            <p class="px-3">2023 Willshire Glen,
+                                                GA-30009</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="badge-title text-center">
+                                    $5000 - $8000
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="badge bg-success time-title">
+                                        Full Time
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="#"
+                            class="row job-list-row text-decoration-none">
+                            <div class="col-sm-2">
+                                <div class="job-list">
+                                    <div class="Company-logo">
+                                        <img class="m-auto d-block"
+                                            src="image/company-2.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="job-list-title">
+                                    <h6>Full Stack Backend Developer</h6>
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <strong
+                                                class="text-primary">Astha</strong>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"
+                                                style="color: #b0b0b0;margin-top: 5px;margin-left: 10px;"></i>
+                                        </li>
+                                        <li>
+                                            <p class="px-3">2023 Willshire Glen,
+                                                GA-30009</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="badge-title text-center">
+                                    $7000 - $13000
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="badge  time-title text-dark"
+                                        style="background-color: #FFC107 !important;">
+                                        Part Time
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="#"
+                            class="row job-list-row text-decoration-none">
+                            <div class="col-sm-2">
+                                <div class="job-list">
+                                    <div class="Company-logo">
+                                        <img class="m-auto d-block"
+                                            src="image/company-3.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="job-list-title">
+                                    <h6>Full Stack Backend Developer</h6>
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <strong
+                                                class="text-primary">Github</strong>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"
+                                                style="color: #b0b0b0;margin-top: 5px;margin-left: 10px;"></i>
+                                        </li>
+                                        <li>
+                                            <p class="px-3">2023 Willshire Glen,
+                                                GA-30009</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="badge-title text-center">
+                                    $5000 - $8000
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="badge time-title"
+                                        style="background-color: #F44336  !important;">
+                                        Freelance
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="#"
+                            class="row job-list-row text-decoration-none">
+                            <div class="col-sm-2">
+                                <div class="job-list">
+                                    <div class="Company-logo">
+                                        <img class="m-auto d-block"
+                                            src="image/company-4.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="job-list-title">
+                                    <h6>Full Stack Backend Developer</h6>
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <strong
+                                                class="text-primary">Medicore</strong>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"
+                                                style="color: #b0b0b0;margin-top: 5px;margin-left: 10px;"></i>
+                                        </li>
+                                        <li>
+                                            <p class="px-3">2023 Willshire Glen,
+                                                GA-30009</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="badge-title text-center">
+                                    $7000 - $13000
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="badge bg-success time-title">
+                                        Full Time
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="#"
+                            class="row job-list-row text-decoration-none">
+                            <div class="col-sm-2">
+                                <div class="job-list">
+                                    <div class="Company-logo">
+                                        <img class="m-auto d-block"
+                                            src="image/company-5.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                                <div class="job-list-title">
+                                    <h6>Full Stack Backend Developer</h6>
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <strong
+                                                class="text-primary">Envato</strong>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"
+                                                style="color: #b0b0b0;margin-top: 5px;margin-left: 10px;"></i>
+                                        </li>
+                                        <li>
+                                            <p class="px-3">2023 Willshire Glen,
+                                                GA-30009</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="badge-title text-center">
+                                    $5000 - $8000
+                                </div>
+                                <div class="text-center mt-2">
+                                    <span class="badge bg-success time-title">
+                                        Full Time
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="continer-btn text-center">
+                            <button type="button"
+                                class="btn btn-primary text-center">View all
+                                jobs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter_wrapper position-relative">
+            <div class="layer position-absolute"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <h3 class="text-white">1354</h3>
+                        <p class="text-white">Job Post</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <h3 class="text-white">1354</h3>
+                        <p class="text-white">Job Post</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <h3 class="text-white">1354</h3>
+                        <p class="text-white">Job Post</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <h3 class="text-white">1354</h3>
+                        <p class="text-white">Job Post</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-12">
+                        <div class="app-countent">
+                            <h1 class="title-app">
+                                Get Our Latest 
+                                <br>
+                                Keller App
+                            </h1>
+                            <p>
+                                Searching for jobs never been that easy. Now you can find job matched your career expectation
+                            </p>
+                            <div class="app-icon d-flex">
+                                <div class="icon-android">
+                                    <a href="#" class="btn btn-primary">
+                                        <i class="fa-brands fa-android"></i>
+                                        Google Play
+                                    </a>
+                                </div>
+                                <div class="icon-apple">
+                                    <a href="#" class="btn btn-primary">
+                                        <i class="fa-brands fa-apple"></i>
+                                        Apple Store
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 align-self-end">
+                        <div class="app-image">
+                            <img src="image/app-1.png" alt="image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <div class="title-headar">
+                            <h1 >Pricing</h1> 
+                            <p>Choose a plan that fits your needs</p>  
+                        </div>
+                    </div>    
+                        <div class="col-lg-4 col-md-6 col-sm-8 col-12 mx-auto mb-4">
+                            <div class="princing">
+                                <div class="head">
+                                    <h6>Basic</h6>
+                                    <h2 class="price">
+                                        <sup>$</sup>
+                                        0
+                                        <sup>.00</sup>
+                                    </h2>
+                                    <span>Per Month</span>
+                                    <ul class="list-unstyled  ">
+                                        <li>1 job posting</li>
+                                        <li>0 featured job</li>
+                                        <li>Job displayed for 15 days</li>
+                                        <li>Email Support</li>
+                                    </ul>
+                                </div>
+                                <div class="btn mt-4">
+                                    Buy Now
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <div class="col-lg-4 col-md-6  col-sm-8 col-12 mx-auto mb-4">
+                            <div class="princing">
+                                <div class="head">
+                                    <h6>Standard</h6>
+                                    <h2 class="price">
+                                        <sup>$</sup>
+                                        10
+                                        <sup>.99</sup>
+                                    </h2>
+                                    <span>Per Month</span>
+                                    <ul class="list-unstyled ">
+                                        <li>5 job posting</li>
+                                        <li>1 featured job</li>
+                                        <li>Job displayed for 30 days</li>
+                                        <li>Premium Support 24/7</li>
+                                    </ul>
+                                </div>
+                                <div class="btn mt-4">
+                                    Buy Now
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <div class="col-lg-4 col-md-6  col-sm-8 col-12 mx-auto mb-4">
+                            <div class="princing">
+                                <div class="head">
+                                    <h6>Professional</h6>
+                                    <h2 class="price">
+                                        <sup>$</sup>
+                                        25
+                                        <sup>.99</sup>
+                                    </h2>
+                                    <span>Per Month</span>
+                                    <ul class="list-unstyled">
+                                        <li>15 job posting</li>
+                                        <li>4 featured job</li>
+                                        <li>Job displayed for 60 days/li>
+                                        <li>Premium Support 24/7/li>
+                                    </ul>
+                                </div>
+                                <div class="btn mt-4">
+                                    Buy Now
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="title-media col-12 text-center">
+                        <h1>Our Blog</h1>
+                        <p>Get more tips & tricks from out blog post.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <img class="img-fluid"
+                                src="image/blog-1.jpg" alt="image" />
+                            <h6 class="title-section-one text-start">
+                                <a href="#" tabindex="0"
+                                    class="text-decoration-none">The Top 5 Job
+                                    Interview
+
+                                    <span>Questions For IT Professionl</span>
+                                </a>
+                            </h6>
+                            <ul
+                                class="media-title-one  list-unstyled text-start">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        Posted on 25 Jan, 2023 <span
+                                            class="mx-2">-3 Comments</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p>Lorem, ipsum dolor sit amet consectetur
+                                        <br>
+                                        adipisicing elit. Praesentium fugiat
+                                        fugit
+                                        <br>
+                                        voluptates ut rem vitae.
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="blog-single.html d-block"
+                                class="read-more "
+                                tabindex="0">
+                                Read More
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <img class="img-fluid"
+                                src="image/blog-2.jpg" alt="image" />
+                            <h6 class="title-section-one text-start">
+                                <a href="#" tabindex="0"
+                                    class="text-decoration-none">7 Careers To Consider If You Love Traveling
+                                </a>
+                            </h6>
+                            <ul
+                                class="media-title-one  list-unstyled text-start">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        Posted on 25 Jan, 2023 <span
+                                            class="mx-2">-3 Comments</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p>Lorem, ipsum dolor sit amet consectetur
+                                        <br>
+                                        adipisicing elit. Praesentium fugiat
+                                        fugit
+                                        <br>
+                                        voluptates ut rem vitae.
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="blog-single.html d-block"
+                                class="read-more "
+                                tabindex="0">
+                                Read More
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="media">
+                            <img class="img-fluid"
+                                src="image/blog-3.jpg" alt="image" />
+                            <h6 class="title-section-one text-start">
+                                <a href="#" tabindex="0"
+                                    class="text-decoration-none">When the Perfect Candidate Turns Out To Be an Imperfect Fit
+                                </a>
+                            </h6>
+                            <ul
+                                class="media-title-one  list-unstyled text-start">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none">
+                                        Posted on 25 Jan, 2023 <span
+                                            class="mx-2">-3 Comments</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p>Lorem, ipsum dolor sit amet consectetur
+                                        <br>
+                                        adipisicing elit. Praesentium fugiat
+                                        fugit
+                                        <br>
+                                        voluptates ut rem vitae.
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="blog-single.html d-block"
+                                class="read-more "
+                                tabindex="0">
+                                Read More
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <footer>
+            <div class="background-footer">
+                <div class="container ">
+                    <div class="row footer-widget-wrap">
+                        <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                            <div class="footer-widget">
+                                <div class="footer-widget-about">
+                                    <img src="image/logo-light.png"
+                                        alt="image" />
+                                    <p>Lorem ipsum dolor sit amet consecte tur
+                                        adipisicing elit. Maiores officiis quod
+                                        quo id inventore quis.</p>
+                                </div>
+                                <div class="footer-social">
+                                    <div class="icon-facebook social_item">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="twitter social_item">
+                                        <a href="#">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icon-linkedin social_item">
+                                        <a href="#"><i
+                                                class="fa-brands fa-linkedin"></i></a>
+                                    </div>
+                                    <div class="icon-pinterest social_item">
+                                        <a href="#"><i
+                                                class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                            <div class="footer-widget">
+                                <h6 class="text-white mb-3">Quick links</h6>
+                                <div class="footer-widget-link ">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <a href="#">Post New Job</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Jobs List</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Candidate List</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Employer List</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Browse Categories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                            <div class="footer-widget">
+                                <h6 class="text-white mb-3">Tranding Jobs</h6>
+                                <div class="footer-widget-link ">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <a href="#">Designer</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">UI & UX Expert</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Develpoer</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">iOS developer</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Front-End developer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                            <div class="footer-widget">
+                                <div class="footer-widget-about">
+                                    <h6 class="text-white mb-3">Newsletter</h3>
+                                    <p>Subscribe to Lawson to get all latest
+                                        Job, Resume, Company Listing & Blog post
+                                        to stay update.</p>
+                                </div>
+                                <div class="from-input position-relative">
+                                    <input type="text" id="email"
+                                        placeholder="Enter your e-mail address" />
+
+                                    <button type="submit"
+                                        class="btn btn-default button-envelope position-absolute">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="footer-copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-copy-right-about text-center">
+                            <p class="mb-0">
+                                © 2022 Keller. Made with
+                                <i class="fa-solid fa-heart"
+                                    style="color: #858585;"></i>
+                                By
+                                <a href="#">HasThemes</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

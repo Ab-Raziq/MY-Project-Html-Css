@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+.lalezar-regular {
+    font-family: "Lalezar", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Arabic", tehhoma;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+.continer{
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.continer .info h1{
+    font-family:  "Lalezar";
+}
+.continer form{
+    margin: 15px 0 25px;
+}
+.continer form button {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.continer form .text-section{
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.continer form input{
+    border: 1px solid #999;
+}
+.continer form button{
+    background-color: aqua;
+    color: #ffffff;
+}
+.continer .qr-code{
+    border: 1px solid #999;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hidden{
+    display:none;
+}
