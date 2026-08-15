@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My HTML & CSS Projects</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      min-height: 100vh;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 38px;
+    }
+
+    header p {
+      color: #555;
+      font-size: 18px;
+    }
+
+    .projects {
+      width: 90%;
+      max-width: 1100px;
+      margin: 20px auto 50px;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-decoration: none;
+      color: #222;
+
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+      transition: 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    }
+
+    .project h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .project p {
+      margin: 0;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #222;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      header p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>My HTML & CSS Projects</h1>
+    <p>Welcome to my projects collection</p>
+  </header>
+
+  <main class="projects">
+
+    <a class="project" href="./Gallary/">
+      <h2>🖼️ Gallary</h2>
+      <p>Gallery Project</p>
+    </a>
+
+    <a class="project" href="./My%20Team/">
+      <h2>👥 My Team</h2>
+      <p>My Team Project</p>
+    </a>
+
+    <a class="project" href="./New%20folder/">
+      <h2>📁 New Folder</h2>
+      <p>New Folder Project</p>
+    </a>
+
+    <a class="project" href="./Task/">
+      <h2>📝 Task</h2>
+      <p>Task Project</p>
+    </a>
+
+    <a class="project" href="./add%20frined/">
+      <h2>👤 Add Friend</h2>
+      <p>Add Friend Project</p>
+    </a>
+
+    <a class="project" href="./calculator/">
+      <h2>🧮 Calculator</h2>
+      <p>Calculator Project</p>
+    </a>
+
+    <a class="project" href="./clock/">
+      <h2>⏰ Clock</h2>
+      <p>Clock Project</p>
+    </a>
+
+    <a class="project" href="./employ/">
+      <h2>💼 Employ</h2>
+      <p>Employ Project</p>
+    </a>
+
+    <a class="project" href="./fetch/">
+      <h2>🌐 Fetch</h2>
+      <p>Fetch Project</p>
+    </a>
+
+    <a class="project" href="./form-3/">
+      <h2>📋 Form</h2>
+      <p>Form Project</p>
+    </a>
+
+    <a class="project" href="./keller/">
+      <h2>🏠 Keller</h2>
+      <p>Keller Project</p>
+    </a>
+
+    <a class="project" href="./nav/">
+      <h2>🧭 Navigation</h2>
+      <p>Navbar Project</p>
+    </a>
+
+    <a class="project" href="./qr%20code/">
+      <h2>📱 QR Code</h2>
+      <p>QR Code Project</p>
+    </a>
+
+    <a class="project" href="./to%20do%20list/">
+      <h2>✅ To Do List</h2>
+      <p>To Do List Project</p>
+    </a>
+
+  </main>
+
+  <footer>
+    © 2026 Abdul Raziq
+  </footer>
+
+</body>
+</html>
